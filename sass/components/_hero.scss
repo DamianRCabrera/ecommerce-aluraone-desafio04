@@ -1,0 +1,23 @@
+.hero{
+  padding: 8rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  background-image: url("../assets/img/hero.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__title{
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  &__subtitle{
+    color: #ffffff;
+    font-size: .9rem;
+  }
+}

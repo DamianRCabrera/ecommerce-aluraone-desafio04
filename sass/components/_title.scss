@@ -1,0 +1,41 @@
+.title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+  &__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__image {
+      width: 2rem;
+    }
+  }
+
+  &__searcher{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    &__label{
+      display: block;
+      cursor: pointer;
+      width: 2rem;
+      height: 2rem;
+      background-image: url("../assets/icons/search-black.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    &__input{
+      display: none;
+      border: 0;
+      outline: 0;
+      border-bottom: 1px solid #cccccc;
+      width: 100%;
+    }
+  }
+}

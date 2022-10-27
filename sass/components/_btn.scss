@@ -1,0 +1,18 @@
+.btn{
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-weight: 700;
+  text-decoration: none;
+
+  &__white{
+    background-color: #ffffff;
+    border: 1px solid #2a7ae4;
+    color: #2a7ae4;
+  }
+
+  &__blue{
+    background-color: #2a7ae4;
+    border: 1px solid #2a7ae4;
+    color: #ffffff;
+  }
+}

@@ -5,30 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraGeek - Damián Cabrera - Oracle ONE</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./public/css/main.css">
 </head>
 <body>
+    <input class="search-toggle" id="search-toggle" type="checkbox">
     <header class="main-header">
         <div class="title">
-            <div class="title-logo-searcher">
-                <div class="title-logo-searcher__logo">
-                    <img class="title-logo-searcher__logo__image" src="./assets/icons/controller.svg" alt="Logo mando de AluraGeek">
-                    <img class="title-logo-searcher__logo__image" src="./assets/icons/alura.svg" alt="Logo Alura con el texto Alura">
-                    <img class="title-logo-searcher__logo__image" src="./assets/icons/geek.svg" alt="Logo Alura con el texto Geek">
-                </div>
-                <div class="title-login">
-                    <a class="title-login__link" href="login.html">Login</a>
-                </div>
-                <div class="title-logo-searcher__searcher">
-                    <div class="title-logo-searcher__searcher-container">
-                        <input class="title-logo-searcher__searcher-container__input" id="search-input" type="text" placeholder="¿Qué deseas buscar?">
-                        <label class="title-logo-searcher__searcher-container__label" for="search-input"><img src="./assets/icons/search-black.svg" alt="Ícono de lupa"></label>
-                    </div>
-                </div>
+            <div class="title__logo">
+                <img class="title__logo__image" src="./public/assets/icons/controller.svg"
+                    alt="Logo mando de AluraGeek">
+                <img class="title__logo__image" src="./public/assets/icons/alura.svg"
+                    alt="Logo Alura con el texto Alura">
+                <img class="title__logo__image" src="./public/assets/icons/geek.svg"
+                    alt="Logo Alura con el texto Geek">
+            </div>
+            <div class="title__login">
+                <a class="btn btn__white" href="login.html">Login</a>
+            </div>
+            <div class="title__searcher">
+                <label class="title__searcher__label" for="search-toggle"></label>
+                <input class="title__searcher__input" id="search-input" type="text" placeholder="¿Qué deseas buscar?" autocomplete="off">
             </div>
         </div>
     </header>
 
+    <main class="main-content">
+
+        <section class="hero">
+            <h1 class="hero__title">Febrero Promocional</h1>
+            <h2 class="hero__subtitle">Productos seleccionados con 33% de descuento</h2>
+            <a class="btn btn__blue" href="#">Ver Consolas</a>
+        </section>
+
+        <article class="main-store">
+            
+            <section class="category">
+                <header class="category__header">
+                    <h3 class="category__header__title">Star Wars</h3>
+                    <a class="category__header__view" href="">Ver todos <img src="" alt=""></a>
+                </header>
+                <div class="category__card-container">
+                    <div class="card">
+                        <img class="card__image" src="" alt="">
+                        <h4 class="card__name"></h4>
+                        <p class="card__price"></p>
+                        <a class="card__view" href=""></a>
+                    </div>
+                </div>
+            </section>
+
+        </article>
+
+
+    </main>
 
 
 
