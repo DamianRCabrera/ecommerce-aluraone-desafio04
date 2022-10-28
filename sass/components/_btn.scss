@@ -1,3 +1,5 @@
+@use '../abstracts/variables';
+
 .btn{
   display: inline-block;
   padding: 1rem 3rem;
@@ -6,13 +8,14 @@
 
   &__white{
     background-color: #ffffff;
-    border: 1px solid #2a7ae4;
-    color: #2a7ae4;
+    border: 1px solid variables.$light-blue;
+    color: variables.$light-blue;
+
   }
 
   &__blue{
-    background-color: #2a7ae4;
-    border: 1px solid #2a7ae4;
-    color: #ffffff;
+    background-color: variables.$light-blue;
+    border: 1px solid variables.$light-blue;
+    color: variables.$white;
   }
 }

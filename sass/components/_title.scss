@@ -1,3 +1,5 @@
+@use '../abstracts/variables';
+
 .title{
   display: flex;
   justify-content: space-between;
@@ -10,7 +12,7 @@
     align-items: center;
 
     &__image {
-      width: 2rem;
+      width: 3rem;
     }
   }
 
@@ -34,7 +36,7 @@
       display: none;
       border: 0;
       outline: 0;
-      border-bottom: 1px solid #cccccc;
+      border-bottom: 1px solid variables.$light-grey;
       width: 100%;
     }
   }

@@ -1,3 +1,5 @@
+@use '../abstracts/variables';
+
 .hero{
   padding: 8rem 1rem 1rem 1rem;
   display: flex;
@@ -11,13 +13,13 @@
   background-repeat: no-repeat;
 
   &__title{
-    color: #ffffff;
+    color: variables.$white;
     font-size: 1.5rem;
     font-weight: 700;
   }
 
   &__subtitle{
-    color: #ffffff;
+    color: variables.$white;
     font-size: .9rem;
   }
 }
