@@ -18,12 +18,14 @@
 // 4. Layout-related sections
 @use 'layout/main-header';
 @use 'layout/main-content';
+@use 'layout/main-store';
 
 // 5. Components
 @use 'components/search-toggle';
 @use 'components/title';
 @use 'components/btn';
 @use 'components/hero';
+@use 'components/card';
 
 // 6. Page-specific styles
 // @use 'pages/home';

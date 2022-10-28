@@ -1,0 +1,42 @@
+@use '../abstracts/variables';
+
+.main-store{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+
+  &__category{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    &__header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &__title{
+        color: variables.$dark-grey;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.5;
+      }
+
+      &__link{
+        color: variables.$light-blue;
+        font-size: 0.9rem;
+        font-weight: 700;
+        line-height: 1.2;
+        text-decoration: none;
+      }
+    }
+
+    &__card-container{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+  }
+}
