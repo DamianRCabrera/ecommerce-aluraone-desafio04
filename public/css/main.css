@@ -621,10 +621,15 @@ body {
   color: #2a7ae4;
   text-decoration: none;
 }
+.card:nth-last-child(-n+2) {
+  display: none;
+}
 
 .form-fieldset {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
   gap: 1rem;
 }
 .form-fieldset__title {

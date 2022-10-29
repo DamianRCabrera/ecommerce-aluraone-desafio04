@@ -31,4 +31,8 @@
     color: variables.$light-blue;
     text-decoration: none;
   }
+
+  &:nth-last-child(-n+2){
+    display: none;
+  }
 }

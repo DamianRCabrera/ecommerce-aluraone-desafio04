@@ -4,6 +4,8 @@
   &-fieldset{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
     gap: 1rem;
 
     &__title{
