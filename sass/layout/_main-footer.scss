@@ -1,0 +1,41 @@
+@use '../abstracts/variables';
+
+.main-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5em;
+  padding: 1.5em;
+  background-color: variables.$light-blue;
+  color: variables.$white;
+  font-size: 0.8rem;
+
+  @media (min-width: 768px) {
+      gap: 6em;
+  }
+}
+
+.footer-info {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.footer-nav {
+  display: flex;
+}
+
+.footer-nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+
+
+  &__icon {
+      width: 3em;
+
+      &:hover {
+          transform: scale(1.15);
+      }
+  }
+}

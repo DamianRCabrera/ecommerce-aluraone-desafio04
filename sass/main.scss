@@ -18,7 +18,9 @@
 // 4. Layout-related sections
 @use 'layout/main-header';
 @use 'layout/main-content';
+@use 'layout/main-info';
 @use 'layout/main-store';
+@use 'layout/main-footer';
 
 // 5. Components
 @use 'components/search-toggle';
