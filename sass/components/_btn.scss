@@ -5,6 +5,15 @@
   padding: 1rem 3rem;
   font-weight: 700;
   text-decoration: none;
+  cursor: pointer;
+
+  &:hover, &:focus {
+    transform: scale(1.01);
+  }
+
+  &:active{
+    background-color: variables.$light-blue-hover;
+  }
 
   &__white{
     background-color: #ffffff;
