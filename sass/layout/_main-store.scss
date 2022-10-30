@@ -5,6 +5,8 @@
   flex-direction: column;
   gap: 2rem;
   padding: 2rem;
+  max-width: 1440px;
+  margin: auto;
 
   &__category{
     display: flex;

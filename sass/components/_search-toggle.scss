@@ -1,11 +1,13 @@
 .search-toggle{
   display: none;
 
-  &:checked ~ .main-header .title .title__searcher .title__searcher__input{
-    display: block;
-  }
+  @media (max-width: 768px) {
+    &:checked ~ .main-header .title .title__searcher .title__searcher__input{
+      display: block;
+    }
 
-  &:checked ~ .main-header .title .title__login{
-    display: none;
+    &:checked ~ .main-header .title .title__login{
+      display: none;
+    }
   }
 }

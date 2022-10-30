@@ -5,6 +5,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  max-width: 1440px;
+  margin: auto;
+
+  @media (min-width: 768px) {
+    padding: 2rem;
+  }
 
   &__logo{
     display: flex;
@@ -16,11 +22,27 @@
     }
   }
 
+  &__login{
+    @media (min-width: 768px) {
+      order: 3;
+    }
+  }
+
   &__searcher{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex: 1;
+    max-width: 100px;
+
+    @media (min-width: 768px) {
+      max-width: 300px;
+    }
+
+    @media (min-width: 1024px) {
+      max-width: 500px;
+    }
 
     &__label{
       display: block;
@@ -38,6 +60,10 @@
       outline: 0;
       border-bottom: 1px solid variables.$light-grey;
       width: 100%;
+
+      @media (min-width: 768px) {
+        display: block;
+      }
     }
   }
 }

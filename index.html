@@ -34,9 +34,11 @@
     <main class="main-content">
 
         <section class="hero">
-            <h1 class="hero__title">Febrero Promocional</h1>
-            <h2 class="hero__subtitle">Productos seleccionados con 33% de descuento</h2>
-            <a class="btn btn__blue" href="#">Ver Consolas</a>
+            <div class="hero-container">
+                <h1 class="hero__title">Febrero Promocional</h1>
+                <h2 class="hero__subtitle">Productos seleccionados con 33% de descuento</h2>
+                <a class="btn btn__blue" href="#">Ver Consolas</a>
+            </div>
         </section>
 
         <article class="main-store">
@@ -204,44 +206,44 @@
 
         <article class="main-info">
 
-            <header class="main-info__header">
-                <a href="index.html" class="main-info__header__logo">
-                    <img class="main-info__header__logo__image" src="./public/assets/icons/controller.svg"
-                        alt="Logo mando de AluraGeek">
-                    <img class="main-info__header__logo__image" src="./public/assets/icons/alura.svg"
-                        alt="Logo Alura con el texto Alura">
-                    <img class="main-info__header__logo__image" src="./public/assets/icons/geek.svg"
-                        alt="Logo Alura con el texto Geek">
-                </a>
-
-                <nav class="main-info__header__nav">
-                    <a class="main-info__header__nav__link" href="#">Quienes somos</a>
-                    <a class="main-info__header__nav__link" href="#">Política de Privacidad</a>
-                    <a class="main-info__header__nav__link" href="#">Programa de fidelidad</a>
-                    <a class="main-info__header__nav__link" href="#">Nuestras tiendas</a>
-                    <a class="main-info__header__nav__link" href="#">Quiero ser franquiciado</a>
-                    <a class="main-info__header__nav__link" href="#">Anúncie aquí</a>
-                </nav>
-            </header>
-
-            <section class="main-info-form">
-                <div class="main-info-form-container">
-                    <form class="form" autocomplete="off">
-                        <fieldset class="form-fieldset">
-                            <legend class="form-fieldset__title" >Hable con nosotros:</legend>
-                            <div class="form-group">
-                                <input class="form-group__input" type="text" placeholder="Nombre" id="name">
-                                <label class="form-group__label" for="name">Nombre</label>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-group__textarea" name="message" id="message" cols="30" rows="10"
-                                    placeholder="Escribe tu mensaje"></textarea>
-                            </div>
-                            <button class="btn btn__blue">Enviar</button>
-                        </fieldset>
-                    </form>
-                </div>
-            </section>
+            <div class="main-info-container">
+                <header class="main-info__header">
+                    <a href="index.html" class="main-info__header__logo">
+                        <img class="main-info__header__logo__image" src="./public/assets/icons/controller.svg"
+                            alt="Logo mando de AluraGeek">
+                        <img class="main-info__header__logo__image" src="./public/assets/icons/alura.svg"
+                            alt="Logo Alura con el texto Alura">
+                        <img class="main-info__header__logo__image" src="./public/assets/icons/geek.svg"
+                            alt="Logo Alura con el texto Geek">
+                    </a>
+                    <nav class="main-info__header__nav">
+                        <a class="main-info__header__nav__link" href="#">Quienes somos</a>
+                        <a class="main-info__header__nav__link" href="#">Política de Privacidad</a>
+                        <a class="main-info__header__nav__link" href="#">Programa de fidelidad</a>
+                        <a class="main-info__header__nav__link" href="#">Nuestras tiendas</a>
+                        <a class="main-info__header__nav__link" href="#">Quiero ser franquiciado</a>
+                        <a class="main-info__header__nav__link" href="#">Anúncie aquí</a>
+                    </nav>
+                </header>
+                <section class="main-info-form">
+                    <div class="main-info-form-container">
+                        <form class="form" autocomplete="off">
+                            <fieldset class="form-fieldset">
+                                <legend class="form-fieldset__title" >Hable con nosotros:</legend>
+                                <div class="form-group">
+                                    <input class="form-group__input" type="text" placeholder="Nombre" id="name">
+                                    <label class="form-group__label" for="name">Nombre</label>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-group__textarea" name="message" id="message" cols="30" rows="10"
+                                        placeholder="Escribe tu mensaje"></textarea>
+                                </div>
+                                <button class="btn btn__blue">Enviar</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                </section>
+            </div>
 
         </article>
 
