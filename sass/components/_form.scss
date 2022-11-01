@@ -1,6 +1,9 @@
 @use '../abstracts/variables';
 
 .form{
+  width: 100%;
+  max-width: 600px;
+
   &-fieldset{
     display: flex;
     flex-direction: column;
@@ -13,6 +16,14 @@
       line-height: 1.2;
       color: variables.$dark-grey;
       margin-bottom: 1rem;
+    }
+
+    &__header{
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: variables.$dark-grey;
+      margin-bottom: 1rem;
+      text-align: center;
     }
   }
 
