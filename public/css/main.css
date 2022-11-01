@@ -378,6 +378,11 @@ body {
 
 .main-header {
   background-color: #ffffff;
+  min-height: 10vh;
+}
+
+.main-content {
+  min-height: 80vh;
 }
 
 .main-info {
@@ -518,6 +523,7 @@ body {
   background-color: #2a7ae4;
   color: #ffffff;
   font-size: 0.8rem;
+  min-height: 10vh;
 }
 @media (min-width: 768px) {
   .main-footer {

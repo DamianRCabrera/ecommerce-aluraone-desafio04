@@ -9,6 +9,7 @@
   background-color: variables.$light-blue;
   color: variables.$white;
   font-size: 0.8rem;
+  min-height: 10vh;
 
   @media (min-width: 768px) {
       gap: 6em;
