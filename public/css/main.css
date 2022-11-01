@@ -879,6 +879,13 @@ body {
   }
 }
 
+.addProduct-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 1rem;
+}
+
 @media (max-width: 1024px) {
   .not-display-last-2:nth-last-child(-n+2) {
     display: none;
