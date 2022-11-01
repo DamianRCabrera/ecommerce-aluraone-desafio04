@@ -29,11 +29,13 @@
 @use 'components/hero';
 @use 'components/card';
 @use 'components/form';
+@use 'components/product';
 
 // 6. Page-specific styles
 @use 'pages/login';
 @use 'pages/allProducts';
 @use 'pages/addProduct';
+@use 'pages/viewProduct';
 
 // 7. Themes
 @use 'themes/not-display';
