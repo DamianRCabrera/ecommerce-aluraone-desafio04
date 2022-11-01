@@ -1,0 +1,7 @@
+.not-display-last-2{
+  @media (max-width: 1024px) {
+    &:nth-last-child(-n+2){
+      display: none;
+    }
+  }
+}

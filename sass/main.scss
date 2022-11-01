@@ -32,6 +32,7 @@
 
 // 6. Page-specific styles
 @use 'pages/login';
+@use 'pages/allProducts';
 
 // 7. Themes
-// @use 'themes/default';
+@use 'themes/not-display';

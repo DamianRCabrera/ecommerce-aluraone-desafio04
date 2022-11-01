@@ -2,6 +2,7 @@
 
 .card{
   display: flex;
+  position: relative;
   flex-direction: column;
   gap: 0.5rem;
   flex: 1 1 40%;
@@ -23,6 +24,52 @@
   &__image{
     width: 100%;
     flex: 1;
+
+    &__container{
+      position: relative;
+      display: flex;
+      flex: 1;
+    }
+
+    &__button{
+
+      &__edit{
+        display: inline-block;
+        width: 1.2rem;
+        height: 1.2rem;
+        background-image: url("../assets/icons/edit-button.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &:hover{
+          transform: scale(1.03);
+        }
+      }
+
+      &__delete{
+        display: inline-block;
+        width: 1.2rem;
+        height: 1.2rem;
+        background-image: url("../assets/icons/delete-button.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &:hover{
+          transform: scale(1.03);
+        }
+      }
+
+      &-container{
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        display: flex;
+        gap: 1rem;
+        z-index: 1000;
+      }
+    }
   }
 
   &__name{
@@ -44,11 +91,4 @@
     color: variables.$light-blue;
     text-decoration: none;
   }
-
-  @media (max-width: 1024px) {
-    &:nth-last-child(-n+2){
-      display: none;
-    }
-  }
-  
 }
