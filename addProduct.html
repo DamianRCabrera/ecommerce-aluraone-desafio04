@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar producto - AluraGeek - Damián Cabrera - Oracle ONE</title>
+    <link rel="stylesheet" href="./public/css/main.css">
+    <link rel="icon" type="image/x-icon" href="./public/assets/icons/controller.svg">
+</head>
+
+<body>
+    <input class="search-toggle" id="search-toggle" type="checkbox">
+    <header class="main-header">
+        <div class="title">
+            <a href="index.html" class="title__logo">
+                <img class="title__logo__image" src="./public/assets/icons/controller.svg"
+                    alt="Logo mando de AluraGeek">
+                <img class="title__logo__image" src="./public/assets/icons/alura.svg"
+                    alt="Logo Alura con el texto Alura">
+                <img class="title__logo__image" src="./public/assets/icons/geek.svg" alt="Logo Alura con el texto Geek">
+            </a>
+            <div class="title__login">
+                <a class="btn btn__white" href="login.html">Login</a>
+            </div>
+            <div class="title__searcher">
+                <label class="title__searcher__label" for="search-toggle"></label>
+                <input class="title__searcher__input" id="search-input" type="text" placeholder="¿Qué deseas buscar?"
+                    autocomplete="off">
+            </div>
+        </div>
+    </header>
+
+
+    <main class="main-content">
+
+      <div class="addProduct-container">
+        <form class="form" autocomplete="off">
+          <fieldset class="form-fieldset">
+            <h2 class="form-fieldset__header">Agregar producto:</h2>
+            <div class="form-group">
+                <input class="form-group__input" type="text" placeholder="URL de Imagen" id="add-product-image">
+                <label class="form-group__label" for="add-product-image">URL de Imagen</label>
+            </div>
+            <div class="form-group">
+              <input class="form-group__input" type="text" placeholder="Categoría" id="add-product-category">
+              <label class="form-group__label" for="add-product-category">Categoría</label>
+            </div>
+            <div class="form-group">
+              <input class="form-group__input" type="text" placeholder="Nombre de producto" id="add-product-name">
+              <label class="form-group__label" for="add-product-name">Nombre de producto</label>
+            </div>
+            <div class="form-group">
+              <input class="form-group__input" type="text" placeholder="Precio del producto" id="add-product-price">
+              <label class="form-group__label" for="add-product-price">Precio del producto</label>
+            </div>
+            <div class="form-group">
+              <textarea class="form-group__textarea" name="description" id="add-product-description" cols="30" rows="10"
+                  placeholder="Descripción del producto"></textarea>
+          </div>
+            <button class="btn btn__blue">Enviar</button>
+        </fieldset>
+        </form>
+      </div>
+
+
+      <article class="main-info">
+
+        <div class="main-info-container">
+            <header class="main-info__header">
+                <a href="index.html" class="main-info__header__logo">
+                    <img class="main-info__header__logo__image" src="./public/assets/icons/controller.svg"
+                        alt="Logo mando de AluraGeek">
+                    <img class="main-info__header__logo__image" src="./public/assets/icons/alura.svg"
+                        alt="Logo Alura con el texto Alura">
+                    <img class="main-info__header__logo__image" src="./public/assets/icons/geek.svg"
+                        alt="Logo Alura con el texto Geek">
+                </a>
+                <nav class="main-info__header__nav">
+                    <a class="main-info__header__nav__link" href="#">Quienes somos</a>
+                    <a class="main-info__header__nav__link" href="#">Política de Privacidad</a>
+                    <a class="main-info__header__nav__link" href="#">Programa de fidelidad</a>
+                    <a class="main-info__header__nav__link" href="#">Nuestras tiendas</a>
+                    <a class="main-info__header__nav__link" href="#">Quiero ser franquiciado</a>
+                    <a class="main-info__header__nav__link" href="#">Anúncie aquí</a>
+                </nav>
+            </header>
+            <section class="main-info-form">
+                <div class="main-info-form-container">
+                    <form class="form" autocomplete="off">
+                        <fieldset class="form-fieldset">
+                            <legend class="form-fieldset__title" >Hable con nosotros:</legend>
+                            <div class="form-group">
+                                <input class="form-group__input" type="text" placeholder="Nombre" id="name">
+                                <label class="form-group__label" for="name">Nombre</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-group__textarea" name="message" id="message" cols="30" rows="10"
+                                    placeholder="Escribe tu mensaje"></textarea>
+                            </div>
+                            <button class="btn btn__blue">Enviar</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+    </article>
+
+    </main>
+
+    <footer class="main-footer">
+      <div class="footer-info">
+          <p class="footer-info__p">Damián R. Cabrera</p>
+          <p class="footer-info__p">Derechos reservados &copy;</p>
+      </div>
+
+      <nav class="footer-nav">
+          <ul class="footer-nav-links">
+              <li>
+                  <a href="https://www.linkedin.com/in/damian-roberto-cabrera/" target="_blank"
+                      class="footer-nav-links__link">
+                      <img class="footer-nav-links__icon" src="./public/assets/icons/linkedin.svg"
+                          alt="Link to LinkedIn">
+                  </a>
+              </li>
+
+              <li>
+                  <a href="https://github.com/DamianRCabrera" target="_blank" class="footer-nav-links__link">
+                      <img class="footer-nav-links__icon" src="./public/assets/icons/github.svg" alt="Link to GitHub">
+                  </a>
+              </li>
+          </ul>
+      </nav>
+  </footer>
+
+</body>
+
+</html>
