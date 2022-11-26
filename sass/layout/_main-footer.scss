@@ -2,10 +2,9 @@
 
 .main-footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 4rem;
-  padding: 1rem 2rem;
+  gap: 1rem;
   background-color: variables.$light-blue;
   color: variables.$white;
   font-size: 0.8rem;
@@ -13,6 +12,13 @@
 
   @media (min-width: 768px) {
       gap: 6rem;
+  }
+
+  &-social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 1rem;
   }
 }
 

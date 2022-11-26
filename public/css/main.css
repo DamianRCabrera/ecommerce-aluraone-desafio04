@@ -516,10 +516,9 @@ body {
 
 .main-footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 4rem;
-  padding: 1rem 2rem;
+  gap: 1rem;
   background-color: #2a7ae4;
   color: #ffffff;
   font-size: 0.8rem;
@@ -529,6 +528,12 @@ body {
   .main-footer {
     gap: 6rem;
   }
+}
+.main-footer-social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 1rem;
 }
 
 .footer-info {
